@@ -1,0 +1,24 @@
+nav{
+    background-color: aqua;
+    height: 80px;
+    width: 100%;
+    
+}
+nav li{
+    list-style:none;
+    display:inline;
+    font-size:20px;
+    margin: 25px 15px;
+    padding:5px;
+}
+nav ul li:hover{
+    color: rgb(249, 248, 248);
+    background-color: rgb(192, 139, 139);
+}
+nav li a{
+    text-decoration:none;
+}
+
+footer{
+    text-align:center;
+}
