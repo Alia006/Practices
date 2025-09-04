@@ -22,3 +22,28 @@ nav li a{
 footer{
     text-align:center;
 }
+form .student-info label{
+    display:block;
+    margin: 5PX 0;
+}
+.form-section{
+    background-color: bisque;
+    font-size:30px;
+    color:rgb(159, 85, 45);
+    
+}
+.form-section input{
+    font-size: 20px;
+    color:rgba(1, 9, 27, 0.393)
+}
+.form-section .html-form-example {
+    text-align:center;
+    color:blue;
+    text-decoration: underline;
+
+}
+select{
+    font-size:20px;
+}
+
+
