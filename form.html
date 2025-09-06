@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Html Form</title>
+
+    <style>
+        div{
+            background-color: rgb(249, 240, 226);
+            
+        }
+        form{
+            background-color: rgb(241, 240, 239);;
+        }
+        div h1{
+            text-align: center;
+            color:rgb(130, 10, 235);
+            text-decoration: underline;
+            padding: 25px;
+            
+
+           
+        }
+        div legend{
+            font-size: 20px;
+            color:blueviolet;
+        }
+         div label,input,textarea{
+            font-size:20px;
+         }
+         div input{
+            color:rgb(74, 43, 101)
+         }
+         div form input[type="button"],input[type="reset"]{
+            background-color: rgb(255, 252, 221);
+            color:rgb(23, 1, 1);
+            font-weight:bold;
+            padding:10px 40px;
+            border: 2px solid rgb(245, 190, 86);
+            border-radius:10px;
+            margin: 10px 15px;
+            cursor:pointer;
+            transition:0.2s ease;
+         }
+          /* div form input[type="button"],input[type="reset"]:hover{
+            background-color: rgb(48, 83, 239);
+            transform: scale(1.05);
+            box-shadow: 2px 4px 8px rgb(0, 0, 0);
+            color:white;
+            border:none;
+            border-radius:10px;
+          } */
+
+    </style>
+</head>
+<body>
+    <div>
+        <h1>User Registration</h1>
+       <form action="">
+         <fieldset>
+            <legend>Personal Details</legend>
+
+            <label for="">Full Name:</label>
+            <input type="text" placeholder="Enter the user name" id=""> 
+
+            <br><br>
+            
+            <label for="">Email:</label>
+            <input type="text" placeholder="Enter the user mail" name="" id="">
+
+            <br><br>
+
+            <label for="">Age:</label>
+            <input type="number" name="" id="">
+
+            <br><br>
+        </fieldset>
+        <fieldset>
+            <legend>Account Preferences</legend>
+            <label for="">Preferred Programming Language :</label>
+            <input type="radio" name="programming-language" id="python">
+            <label for="python">Python</label>
+
+            <input type="radio" name="programming-language" id="java">
+            <label for="java">Java</label>
+
+            <input type="radio" name="programming-language" id="javascript">
+            <label for="javascript">JavaScript</label>
+
+            <br><br>
+
+            <label for="">Skills:</label>
+
+            <input type="checkbox" name="" id="">
+            <label for="">Web Development</label>
+
+            <input type="checkbox" name="" id="">
+            <label for="">Data Science</label>
+        </fieldset>
+
+        <fieldset>
+            <legend>Profile Picture</legend>
+            <input type="file" name="ProfilePic" id="">
+        </fieldset>
+        <fieldset>
+            <legend>Aditional Information</legend>
+            <label for="">Comments:</label><br>
+            <textarea cols="50" rows="5" id=""></textarea>
+        </fieldset>
+        <input type="button" value="Register">
+        <input type="reset" value="Clear Form">
+       </form>
+    </div>
+</body>
+</html>
